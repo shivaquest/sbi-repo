@@ -16,18 +16,18 @@
   </properties>
   
   
- <distributionManagement>
-    <snapshotRepository>
-        <id>nexus-snapshots</id>
-        <name>Internal Snapshots</name>
-        <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <repository>
-        <id>nexus-releases</id>
-        <name>Internal Releases</name>
-        <url>http://localhost:8081/nexus/content/repositories/releases</url>
-    </repository>
-</distributionManagement>
+<distributionManagement>
+     <repository>
+       <id>nexus</id>
+       <name>Releases Nexus Repository</name>
+       <url>http://18.222.12.148:8081/repository/Web_releases/</url>
+     </repository>
+     <snapshotRepository>
+       <id>nexus</id>
+       <name>Snapshot Nexus Repository </name>
+       <url>http://18.222.12.148:8081/repository/Web_snapshots/</url>
+     </snapshotRepository>
+ </distributionManagement>
 
   <dependencies>
     <dependency>
