@@ -15,6 +15,18 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-3-42.us-east-2.compute.internal-releases</name>
+        <url>http://3.135.218.237:8081/artifactory/web_releases</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-3-42.us-east-2.compute.internal-snapshots</name>
+        <url>http://3.135.218.237:8081/artifactory/web_snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
