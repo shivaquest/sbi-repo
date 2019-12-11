@@ -16,15 +16,15 @@
   </properties>
   
   <distributionManagement>
-    <repository>
-        <id>nexus</id>
-        <name>nexus releases</name>
-        <url>http://3.133.142.8:8081/repository/maven2-releases/</url>
+    repository>
+        <id>jfrog</id>
+        <name>ip-172-31-3-42.us-east-2.compute.internal-releases</name>
+        <url>http://3.15.231.82:8081/artifactory/web_releases</url>
     </repository>
     <snapshotRepository>
-        <id>nexus</id>
-        <name>nexus snapshots</name>
-        <url>http://3.133.142.8:8081/repository/maven2-snapshots/</url>
+        <id>jfrog</id>
+        <name>ip-172-31-3-42.us-east-2.compute.internal-snapshots</name>
+        <url>http://3.15.231.82:8081/artifactory/web_snapshots</url>
     </snapshotRepository>
  </distributionManagement>
   
