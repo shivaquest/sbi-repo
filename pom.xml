@@ -15,21 +15,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
-  
-<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ip-172-31-3-42.us-east-2.compute.internal-releases</name>
-        <url>http://3.135.218.237:8081/artifactory/libs-release</url>
-    </repository>
-     <repository>
-          <snapshots />
-          <id>snapshots</id>
-          <name>libs-snapshot</name>
-          <url>http://3.135.218.237:8081/artifactory/libs-snapshot</url>
-     </repository>
- </distributionManagement>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
