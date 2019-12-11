@@ -15,6 +15,18 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
+  <distributionManagement>
+    <repository>
+        <id>nexus</id>
+        <name>nexus releases</name>
+        <url>http://3.133.142.8:8081/repository/maven2-releases/</url>
+    </repository>
+    <snapshotRepository>
+        <id>nexus</id>
+        <name>nexus snapshots</name>
+        <url>http://3.133.142.8:8081/repository/maven2-snapshots/</url>
+    </snapshotRepository>
+ </distributionManagement>
   
   <dependencies>
     <dependency>
